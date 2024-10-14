@@ -11,12 +11,12 @@ import shutil
 app = Flask(__name__)
 CORS(app)
 
-app.config['MAIL_SERVER'] = 'smtp.gmail.com' 
+app.config['MAIL_SERVER'] = 'smtp.thapar.edu' 
 app.config['MAIL_PORT'] = 587 
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'igenerator57@gmail.com' 
-app.config['MAIL_PASSWORD'] = 'zfuvwfmfmlsdlxdz' 
-app.config['MAIL_DEFAULT_SENDER'] = 'igenerator57@gmail.com' 
+app.config['MAIL_USERNAME'] = 'abhati_be22@thapar.edu' 
+app.config['MAIL_PASSWORD'] = '07@Britney' 
+app.config['MAIL_DEFAULT_SENDER'] = 'abhati_be22@thapar.edu' 
 mail = Mail(app)
 
 OUTPUT_DIR = os.path.join('static', 'dataset')
